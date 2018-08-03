@@ -13,4 +13,5 @@ Si hay empate, debe devolver la primera palabra en la lista de parámetros.funct
    }
  
  }
- 
+ const output = findShortestOfThreeWords('a', 'dos', 'tres');
+ console.log(salida);

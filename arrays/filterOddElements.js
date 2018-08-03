@@ -2,10 +2,10 @@
 
 const filterOddElements = (arr) => {
   // Se crea un arreglo vació donde irán los números impares.
-  var oddNumbers = [];
+  let oddNumbers = [];
   
   // El ciclo for irá iterando sobre cada elemento del arreglo arr
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     // Buscará cada número impar (cuya división por 2 dará distinto de 0)
     if(arr[i]%2 !== 0) {
       // Se agrega cada elemento impar al nuevo arreglo oddNumbers
@@ -15,5 +15,16 @@ const filterOddElements = (arr) => {
   return oddNumbers;
 }
 
-var output = filterOddElements([1, 2, 3, 4, 5]);
+let output = filterOddElements([1, 2, 3, 4, 5]);
 console.log(output);
+
+/* OTRA FORMA, USANDO FILTER
+
+filterOddElements = (arr) => {
+const arrOddNumbers = arr.filter(i => i % 2 !== 0 );
+  return arrOddNumbers;
+}
+
+const output = filterOddElements([1, 2, 3, 4, 5]);
+console.log(output);
+*/
