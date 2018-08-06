@@ -15,7 +15,7 @@ const filterOddElements = (arr) => {
   return oddNumbers;
 }
 
-let output = filterOddElements([1, 2, 3, 4, 5]);
+const output = filterOddElements([1, 2, 3, 4, 5]);
 console.log(output);
 
 /* OTRA FORMA, USANDO FILTER

@@ -11,5 +11,5 @@ const computeSumOfAllElements = (arr) => {
   return suma;
 }
 
-var output = computeSumOfAllElements([1, 2, 10]);
+const output = computeSumOfAllElements([1, 2, 10]);
 console.log(output);
