@@ -1,3 +1,4 @@
+// Dado un objeto como parámetro, contar la cantidad de propiedades que este contiene y retornarlo.
 
 
 const objectPropertiesCounter = (obj) => {
