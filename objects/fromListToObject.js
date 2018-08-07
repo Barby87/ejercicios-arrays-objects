@@ -2,7 +2,7 @@
 
 const car = [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]];
 
-fromListToObject = (array) => {
+const fromListToObject = (array) => {
   
   // Objeto vacío donde se egragarán las nuevas propiedades
   let newObject = {};
